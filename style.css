@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+	width: 1215px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 768px){
+.container{
+    width: 100%;
+    padding: 0 15px;
+    box-sizing:border-box;
+} 
+ 
+}
+@media screen and (max-width: 575px){
+  .block1 {
+  	 background-image: url('img/ltJxFp.jpg');
+	min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position:relative;
+  }
+  .wow {
+  	position: absolute;
+  	top: 30%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align:center;
+  	margin-top: 20px;
+  }
+  .wow h1 {
+  	margin-top: 30px;
+  	color: white;
+  }
+  .wow img {
+  	width: 80px;
+  	margin-top: 30px;
+  } 
+  .black {
+  	color:black;
+  }
+  .def {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	margin-top: 30px;
+  }
+  .def h1 {
+  	margin-top: 20px;
+  }
+  .def img {
+  	width: 100%;
+  	margin-top: 30px;
+  	border-radius: 20px;
+  }
+  .mt {
+  	margin-top: 50px !important;
+  }
+  .block5 h1 {
+  	text-align: center;;
+  }
+  .imgs {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;;
+  }
+  .imgs p {
+  	margin-top: 20px;
+  }
+  .imgs img {
+  	width: 100%;
+  }
+  .block6 h1 {
+  	text-align: center;
+  	margin-top: 30px;
+  }
+  .block6 img {
+  	width: 100%;
+  	border-radius:30px; 
+  }
+}
